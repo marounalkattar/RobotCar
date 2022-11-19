@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Maroun ELKATTAR</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3662/3662817.png">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="https://media-exp1.licdn.com/dms/image/D4E03AQGX2iZnP2_dMg/profile-displayphoto-shrink_800_800/0/1666875018323?e=1672272000&v=beta&t=pswatZXcqvP-jgjqdoNXFtQ2ESWvn1ND4DG4jz_3B-U" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a>Maroun EL KATTAR</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/marounalkattar"title='gitHub'target="_blank" class="gitHub"><i class="bx bxl-github"></i></a>
+          <a href="https://www.facebook.com/maroun.kattar.9/"title='Facebook'target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/marounalkattar/"title='Instagram'target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://marounalkattar.github.io/maroun/assets/Maroun_EL%20KATTAR_CV_FR.pdf"title='CV French version'target="_blank" class="google-plus"><i class="bx bxs-download"></i></a>
+          <a href="https://marounalkattar.github.io/maroun/assets/Maroun_EL%20KATTAR_CV_EN.pdf"title='CV English version'target="_blank" class="google-plus"><i class="bx bxs-download"></i></a>
+          <a href="https://www.linkedin.com/in/marounkattar/"title='LinkedIn'target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li>
+            <div class="toggle-button-cover">
+              <div class="button-cover">
+                <div class="button b2" id="button-10">
+                  <input type="checkbox" class="checkbox" value="en" id="myCheck" onclick="myFunction()" />
+                  <div class="knobs">
+                    <span style="font-size: 16px;">EN</span>
+                  </div>
+                  <div class="layer"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="https://marounalkattar.github.io/maroun/#hero"><i class="bx bx-home"></i> <span id="Home">Home</span></a></li>
+          <li><a href="https://marounalkattar.github.io/maroun/#about"><i class="bx bx-user"></i> <span id="About">About</span></a></li>
+          <li><a href="https://marounalkattar.github.io/maroun/#resume"><i class="bx bx-file-blank"></i> <span id="Resume">Resume</span></a></li>
+          <li><a href="https://marounalkattar.github.io/maroun/#portfolio"><i class="bx bx-book-content"></i><span style="color: #149ddd;" id="projects">Projects</span> </a></li>
+          <li><a href="https://marounalkattar.github.io/maroun/#test"><i class="bx bx-user"></i><span id="testimo">Testimonials</span></a></li>
+          <li><a href="https://marounalkattar.github.io/maroun/#contact"><i class="bx bx-envelope"></i> Contacts</a></li>
+
+
+        </ul>
+      </nav><!-- .nav-menu -->
+<script>
+  function myFunction() {
+    var checkBox = document.getElementById("myCheck");
+    // console.log(checkBox);
+if (checkBox.checked == true) {
+console.log("FR");
+
+document.getElementById("About").innerHTML="À propos";
+document.getElementById("Resume").innerHTML="CV";
+document.getElementById("Home").innerHTML="Accueil";
+document.getElementById("projects").innerHTML="Projets";
+document.getElementById("testimo").innerHTML="Témoignages";
+document.getElementById("mainen").style.display = "none";
+document.getElementById("mainfr").style.display = "block";
+document.getElementById("createprob").innerHTML = "CRÉER UN PROBLÈME";
+document.getElementById("solveprob").innerHTML = "RÉSOUDRE LE PROBLÈME";
+
+
+
+
+
+
+
+} else {
+location.reload();
+}
+}
+        
+      </script>
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+  <main id="main">
+    <span id="mainen" >
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="Abouten">Car robot project</h2>
+          <p id="intro" data-aos="fade-left">The car robot is a project based on an Arduino Uno controlling a car of two or four motors. It has many stages detailed down below.
+          </p>
+          
+        </div>
+
+        <div class="row" data-aos="fade-right">
+          <img src="./assets/img/portfolio/car robot.jpeg" alt="blog1" class="responsives">
+        </div>
+      </div>
+    </section><!-- End About Section -->    
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Phase1: timing control robot</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-right">The purpose of this phase is to make sure that my robot component is in good condition and that the code is well written.
+         In this phase the robot will go forward 2 second, backward 2 second, to the left 2 second, right 2 second and finally stop 2 second.
+          In this stage, I have made 5 functions for each run (ex: void Forward() ) and this functions will make the work easier in the next stages. 
+          fonction code:</p>
+          <pre data-aos="fade-right">
+        <font color="#00979c">void</font> <font color="#000000">Forward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">8</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+        <font color="#000000">}</font>
+        <font color="#00979c">void</font> <font color="#000000">Backward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">8</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+        <font color="#000000">}</font>
+        
+        <font color="#00979c">void</font> <font color="#000000">Left</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">8</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+        <font color="#000000">}</font>
+        
+        <font color="#00979c">void</font> <font color="#000000">Right</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">8</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+        <font color="#000000">}</font>
+        
+        <font color="#00979c">void</font> <font color="#000000">Stop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">8</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+         &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+        
+        <font color="#000000">}</font>
+        
+                  </pre>
+      </div>
+    </section>
+
+
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="skillsen">Phase2: PC communication</h2>
+      </div>
+          <p id="intro" data-aos="fade-up">The robot car will take order from the Serial monitor so when I press w or W the car will go forward, X or x the car will stop, when pressing s or S the car will go backward, A or a the car will move to the left and D or d the car will go to the right.
+        </p>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Phase3: Smartphone control</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-right">I have made an android application to control the robot. 
+        Watch the video of the application interface. The smartphone and the robot are connected via Bluetooth using hc-05 sensor.
+    </p>
+      </div>
+      
+      <div class="row" data-aos="fade-right">
+        <iframe  width="1000" height="500" src="https://www.youtube.com/embed/JXSloYxE__s" class="responsivesvid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">Phase4: Accelerometer control</h2>
+          <p id="intro" data-aos="fade-up">The robot will be controlled by the accelerometer sensor of my smartphone. 
+          This sensor is an X, Y and Z sensor system and will measure the orientation of my phone by giving orders to the Arduino to move the car.
+            
+        </p>
+        </div>
+        <div class="row" data-aos="fade-up">
+          <img src="./assets/img/portfolio/accelerometer.jpeg" alt="blog1" class="responsives">
+      </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Phase5: Voice control</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-down">I created an application to manipulate my robot over voice control system so when 
+        I say “go forward” the robot must go forward.
+    </p>
+    
+    <div class="row" data-aos="fade-right">
+      <img src="./assets/img/portfolio/voice control inter.jpeg" alt="blog1" class="responsivess">
+  </div>
+      </div>
+    </section>
+    
+
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">Phase6: Black and White line follower</h2>
+          <p id="intro" data-aos="fade-up">In this stage the robot will follow a colored line. First, the line will be black and then it will be white.
+          </p>
+          
+    <div class="row" data-aos="fade-right">
+      <iframe width="1000" height="500" src="https://www.youtube.com/embed/E11apvkJ47g"  class="responsivesvid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+       </div>
+    </section>
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Phase7: Object Avoid</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-left">
+        An ultra-sonic hc-sr04 sensor will control the robot, so the car won’t smash up with obstacles. 
+        So here I have updated the car with putting the hc-sr04 sensor on servo and then when the distance is less than 30 cm the servo will rotate the sensor to the right and then to left to take distance. 
+        Then the controller will calculate where the distance is bigger left and right to rotate the car.
+    </p>
+      </div>
+    </section>
+   
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">Phase8: Edge avoiding</h2>
+          <p id="intro" data-aos="fade-up">Finally, I will put the robot on the table so I can test its ability to avoid edges.
+          </p>
+        </div>
+       </div>
+    </section>
+   
+
+
+</span>
+
+  <!----------------------------------------------------------------------- main French ------------------------------------------------------>
+  <span id="mainfr" style="display: none;">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="Abouten">Projet de robot de voiture</h2>
+          <p id="intro">Le robot voiture est un projet basé sur Arduino Uno contrôlant une voiture de deux ou quatre moteurs. 
+            Ce projet comporte de nombreuses étapes détaillées ci-dessous.
+          </p>
+        </div>
+
+        <div class="row">
+          <img src="./assets/img/portfolio/car robot.jpeg" alt="blog1" class="responsives">
+        </div>
+      </div>
+    </section><!-- End About Section -->    
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Phase 1 : robot de contrôle de chronométrage</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-right">
+        Le but de cette phase est de s’assurer que les composant du robot est en bon état et que le code est bien écrit. 
+        Dans cette phase, le robot avancera 2 secondes, reculera 2 secondes, gauche 2 secondes, droite 2 secondes et enfin s’arrêtera 2 secondes. 
+        Dans cette étape, j’ai créé 5 fonctions pour chaque exécution (ex: void Forward()) et ces fonctions faciliteront le travail dans les étapes suivantes.
+         Code des fonctions :
+         <pre>
+          <font color="#00979c">void</font> <font color="#000000">Forward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">8</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+          <font color="#000000">}</font>
+          <font color="#00979c">void</font> <font color="#000000">Backward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">8</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+          <font color="#000000">}</font>
+          
+          <font color="#00979c">void</font> <font color="#000000">Left</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">8</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+          <font color="#000000">}</font>
+          
+          <font color="#00979c">void</font> <font color="#000000">Right</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">8</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+          <font color="#000000">}</font>
+          
+          <font color="#00979c">void</font> <font color="#000000">Stop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">8</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+           &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+          
+          <font color="#000000">}</font>
+          
+            </pre>
+        
+    </p>
+      </div>
+    </section>
+
+
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="skillsen">Phase 2: Communication par PC</h2>
+      </div>
+          <p id="intro" data-aos="fade-up"> La voiture robot prendra l’ordre du moniteur série,
+             donc lorsque j’appuie sur w ou W, la voiture avance, X ou x la voiture s’arrête, 
+             en appuyant sur s ou S, la voiture recule, A ou a, la voiture se déplace vers la gauche et D ou d, la voiture va à droite.
+        </p>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Phase 3 : Contrôle à l'aide smartphone</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-right">J’ai fait une application android pour contrôler le robot. Regardez la vidéo de l’interface de l’application. Le smartphone et le robot sont connectés via Bluetooth à l’aide d'un module Bluetooth "hc-05".
+        
+      </p>
+      </div>
+      
+      <div class="row" data-aos="fade-right">
+        <iframe width="1000" height="500" src="https://www.youtube.com/embed/JXSloYxE__s" class="responsivesvid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      
+    </section>
+
+
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">Phase 4 : Contrôle de l’accéléromètre</h2>
+          <p id="intro" data-aos="fade-up"> Le robot sera contrôlé par le capteur accéléromètre de mon smartphone. 
+            Ce capteur est un système de capteurs X, Y et Z et mesurera l’orientation de mon téléphone en donnant des ordres à l’Arduino de déplacer la voiture.
+            
+        </p>
+        </div>
+        
+        <div class="row">
+          <img src="./assets/img/portfolio/accelerometer.jpeg" alt="blog1" class="responsives">
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Phase 5 : Commande vocale</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-down">J’ai créé une application pour manipuler mon robot sur le système de commande vocale
+         donc quand je dis « aller de l’avant » le robot doit aller de l’avant.
+       </p>
+       
+      <div class="row">
+        <img src="./assets/img/portfolio/voice control inter.jpeg" alt="blog1" class="responsivess">
+      </div>
+ 
+      </div>
+    </section>
+    
+
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">Phase 6 : Suiveur de ligne noir et blanc</h2>
+          <p id="intro" data-aos="fade-up">Dans cette étape, le robot suivra une ligne colorée. D'abord, la ligne sera noire et ensuite elle sera blanche.</p>
+        </div>
+        <div class="row" data-aos="fade-right">
+          <iframe width="1000" height="500" src="https://www.youtube.com/embed/E11apvkJ47g"class="responsivesvid" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Phase 7 : Éviter les objets</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-left">
+        Un capteur hc-sr04 à ultrasons contrôlera le robot, afin que la voiture ne se heurte pas à des obstacles.
+         Donc, ici, j’ai mis à jour la voiture en mettant le capteur hc-sr04 sur servo, puis lorsque la distance est inférieure à 30 cm, 
+         le servo tournera le capteur vers la droite puis vers la gauche pour prendre de la distance.
+        Ensuite, le contrôleur calculera où la distance est plus grande à gauche et à droite pour faire pivoter la voiture.</p>
+      </div>
+    </section>
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">Phase 8 : Éviter les bords</h2>
+          <p id="intro" data-aos="fade-up">Enfin, je vais poser le robot sur la table afin de pouvoir tester sa capacité à éviter les bords.
+        </div>
+        
+      </div>
+    </section>
+
+</span>
+  
+
+  <section class="home">
+    <div class="containers">
+       <div class="rows">
+           <div class="home-text">
+                <h1>Maroun EL KATTAR</h1>
+                <p class="animate-text">
+                   <span id="createprob">CREATE PROBLEMS </span>
+                   <span id="solveprob">SOLVE PROBLEMS </span>
+                  
+                </p>
+           </div>
+       </div>
+    </div>
+  </section>
+
+<script>
+const txts=document.querySelector(".animate-text").children,
+      txtsLen=txts.length;
+  let index=0;
+ const textInTimer=3000,
+       textOutTimer=2800;
+
+function animateText() {
+   for(let i=0; i<txtsLen; i++){
+     txts[i].classList.remove("text-in","text-out");  
+   }
+   txts[index].classList.add("text-in");
+
+   setTimeout(function(){
+       txts[index].classList.add("text-out");              
+   },textOutTimer)
+
+   setTimeout(function(){
+
+     if(index == txtsLen-1){
+         index=0;
+       }
+      else{
+          index++;
+        }
+       animateText();
+   },textInTimer); 
+}
+
+window.onload=animateText;
+
+</script>
+
+  </main>
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <footer id="footer">
+      <div class="credits">
+        <img src="assets/img/MKlogo.jpg" class="img-fluid" alt="">
+       
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
